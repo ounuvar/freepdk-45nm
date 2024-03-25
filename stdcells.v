@@ -1665,8 +1665,7 @@ endprimitive
 
 module DFFR_X1 (D, RN, CK, Q, QN);
   input D;
-  // input RN; (NOTE: edited to suppress "coerced to inout" warning)
-  inout RN;
+  input RN;
   input CK;
   output Q;
   output QN;
